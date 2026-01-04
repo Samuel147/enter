@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Timeline Styles */
+.timeline-item::before {
+  content: '';
+  position: absolute;
+  left: 15px;
+  top: 36px;
+  bottom: -20px;
+  width: 2px;
+  background: #e5e7eb;
+}
+
+.timeline-item:last-child::before {
+  display: none;
+}
+
+/* Card Hover Effect */
+.card-hover:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 24px -8px rgba(0, 0, 0, 0.15);
+}

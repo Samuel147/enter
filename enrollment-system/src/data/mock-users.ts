@@ -1,0 +1,56 @@
+import { Student, Teacher } from '@/types/user';
+
+export const mockStudents: Student[] = [
+  {
+    id: '1',
+    name: '李明',
+    email: 'liming@example.com',
+    role: 'student',
+    studentId: '20241234567',
+    avatar: 'https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=100&h=100&fit=crop',
+    college: '计算机学院',
+    major: '计算机科学专业',
+    className: '2024级计科1班',
+    gender: 'male',
+    birthDate: '2005-06-15',
+    idCard: '11010120050615XXXX',
+    phone: '138****8888',
+    address: '北京市朝阳区XX路XX号XX小区XX号楼XX室',
+    politicalStatus: '共青团员',
+    enrollmentStatus: 'in_progress',
+    createdAt: '2024-08-25',
+  },
+  {
+    id: '2',
+    name: '王芳',
+    email: 'wangfang@example.com',
+    role: 'student',
+    studentId: '20241234568',
+    avatar: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop',
+    college: '计算机学院',
+    major: '计算机科学专业',
+    className: '2024级计科1班',
+    gender: 'female',
+    birthDate: '2005-08-20',
+    idCard: '11010120050820XXXX',
+    phone: '139****9999',
+    address: '北京市海淀区XX路XX号XX小区XX号楼XX室',
+    politicalStatus: '共青团员',
+    enrollmentStatus: 'completed',
+    createdAt: '2024-08-25',
+  },
+];
+
+export const mockTeachers: Teacher[] = [
+  {
+    id: 't1',
+    name: '张老师',
+    email: 'zhang@example.com',
+    role: 'teacher',
+    teacherId: 'T2024001',
+    avatar: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop',
+    position: '辅导员',
+    department: '计算机学院',
+    createdAt: '2020-09-01',
+  },
+];
